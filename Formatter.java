@@ -247,7 +247,7 @@ public class Formatter {
 				//check whether the path is the same as the original file path. If they are different, stop the loop
 				if (inputPath.equals(outputPath)) {
 					JOptionPane.showMessageDialog(null, "error: avoid selecting original file");
-					reshow=false;
+					reshow=ture;
 					continue;				
 				}		
 				//get the words from the linked list and write it based on the required format
